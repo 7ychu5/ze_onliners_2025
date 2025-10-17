@@ -1,0 +1,1 @@
+/// <reference types="s2ts/types/point_script" />
