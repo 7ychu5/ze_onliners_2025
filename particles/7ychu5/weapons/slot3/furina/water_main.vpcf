@@ -1,0 +1,57 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf60:version{cd92a366-0b0d-4811-a18d-f6d472d19709} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_nBehaviorVersion = 12
+	m_hSnapshot = resource:"particles/7ychu5/weapons/slot3/furina/furina_blade.vsnap"
+	m_nViewModelEffect = "INHERITABLE_BOOL_TRUE"
+	m_nSnapshotControlPoint = 1
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+		},
+	]
+	m_Emitters = 
+	[
+		{
+			_class = "C_OP_ContinuousEmitter"
+		},
+	]
+	m_Operators = 
+	[
+		{
+			_class = "C_OP_MovementSkinnedPositionFromCPSnapshot"
+		},
+		{
+			_class = "C_OP_Decay"
+		},
+	]
+	m_Renderers = 
+	[
+		{
+			_class = "C_OP_RenderSprites"
+			m_vecTexturesInput = 
+			[
+				{
+				},
+			]
+			m_bDisableOperator = true
+		},
+	]
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/7ychu5/weapons/slot3/furina/water_p1.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/7ychu5/weapons/slot3/furina/water_p2.vpcf"
+			m_bDisableChild = true
+		},
+		{
+			m_ChildRef = resource:"particles/7ychu5/weapons/slot3/furina/water_p3.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/7ychu5/weapons/slot3/furina/water_rainbow_p5.vpcf"
+		},
+	]
+}

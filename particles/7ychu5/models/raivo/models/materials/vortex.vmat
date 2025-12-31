@@ -1,0 +1,95 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "csgo_effects.vfx"
+
+	//---- Translucent ----
+	F_ADDITIVE_BLEND 1
+
+	//---- Color ----
+	g_flColorBoost "32.000"
+	g_vColorTint "[0.831373 0.000000 1.000000 1.000000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+	TextureColor "materials/default/default_color.tga"
+
+	//---- Distance Fade ----
+	g_flFadeDistance "1.000"
+	g_flFadeFalloff "1.000"
+	g_flFadeMax "1.000"
+	g_flFadeMin "0.000"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Fresnel ----
+	g_flFresnelExponent "2.500"
+	g_flFresnelFalloff "1.056"
+	g_flFresnelMax "0.590"
+	g_flFresnelMin "0.000"
+
+	//---- Mask 1 ----
+	g_vMask1PanSpeed "[0.000 0.000]"
+	g_vMask1Scale "[0.500 0.500]"
+	TextureMask1 "particles/7ychu5/models/raivo/gradient13.png"
+
+	//---- Mask 2 ----
+	g_vMask2PanSpeed "[0.200 -0.500]"
+	g_vMask2Scale "[1.000 0.150]"
+	TextureMask2 "particles/7ychu5/models/raivo/noisesmooth03.png"
+
+	//---- Mask 3 ----
+	g_vMask3PanSpeed "[0.100 -0.200]"
+	g_vMask3Scale "[1.000 0.150]"
+	TextureMask3 "particles/7ychu5/models/raivo/noiseweird01.png"
+
+	//---- Texture Address Mode ----
+	g_nTextureAddressModeU "0" // Wrap
+	g_nTextureAddressModeV "0" // Wrap
+
+	//---- Translucent ----
+	g_flOpacityScale "0.500"
+	TextureTranslucency "particles/7ychu5/models/raivo/gradient03clamp.png"
+
+	Attributes
+	{
+		PreviewModel "particles/7ychu5/models/raivo/models/vortex.vmdl"
+	}
+
+	DynamicParams
+	{
+		g_vMask3PanSpeed "float2(sin(time())/10000,-0.2)"
+	}
+
+
+	VariableState
+	{
+		"Color"
+		{
+		}
+		"Distance Fade"
+		{
+		}
+		"Fog"
+		{
+		}
+		"Fresnel"
+		{
+		}
+		"Mask 1"
+		{
+		}
+		"Mask 2"
+		{
+		}
+		"Mask 3"
+		{
+		}
+		"Texture Address Mode"
+		{
+		}
+		"Translucent"
+		{
+		}
+	}
+}

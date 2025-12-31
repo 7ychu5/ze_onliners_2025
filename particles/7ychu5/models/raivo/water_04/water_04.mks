@@ -1,0 +1,11 @@
+sequence 0
+frame image_1.png 1
+
+sequence 1
+frame image_2.png 1
+
+sequence 2
+frame image_3.png 1
+
+sequence 3
+frame image_4.png 1

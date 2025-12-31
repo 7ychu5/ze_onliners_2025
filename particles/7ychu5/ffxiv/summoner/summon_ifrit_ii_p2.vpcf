@@ -1,0 +1,80 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf61:version{39d3ce1d-9442-4407-9b78-8317145b1732} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_nBehaviorVersion = 12
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+		},
+	]
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/7ychu5/ffxiv/summoner/summon_ifrit_ii_p2b.vpcf"
+			m_flDelay = 0.28
+		},
+		{
+			m_ChildRef = resource:"particles/7ychu5/ffxiv/summoner/summon_ifrit_ii_p2c.vpcf"
+			m_flDelay = 2.0
+		},
+		{
+			m_ChildRef = resource:"particles/7ychu5/ffxiv/summoner/summon_ifrit_ii_p2d.vpcf"
+			m_flDelay = 2.02
+		},
+		{
+			m_ChildRef = resource:"particles/7ychu5/ffxiv/summoner/summon_ifrit_ii_p2a.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/7ychu5/ffxiv/summoner/summon_ifrit_ii_p2a.vpcf"
+			m_flDelay = 0.04
+		},
+		{
+			m_ChildRef = resource:"particles/7ychu5/ffxiv/summoner/summon_ifrit_ii_p2a.vpcf"
+			m_flDelay = 0.08
+		},
+		{
+			m_ChildRef = resource:"particles/7ychu5/ffxiv/summoner/summon_ifrit_ii_p2a.vpcf"
+			m_flDelay = 0.12
+		},
+		{
+			m_ChildRef = resource:"particles/7ychu5/ffxiv/summoner/summon_ifrit_ii_p2a.vpcf"
+			m_flDelay = 0.16
+		},
+		{
+			m_ChildRef = resource:"particles/7ychu5/ffxiv/summoner/summon_ifrit_ii_p2a.vpcf"
+			m_flDelay = 0.2
+		},
+		{
+			m_ChildRef = resource:"particles/7ychu5/ffxiv/summoner/summon_ifrit_ii_p2a.vpcf"
+			m_flDelay = 0.24
+		},
+		{
+			m_ChildRef = resource:"particles/7ychu5/ffxiv/summoner/summon_ifrit_ii_p2a.vpcf"
+			m_flDelay = 0.28
+		},
+		{
+			m_ChildRef = resource:"particles/7ychu5/ffxiv/summoner/summon_ifrit_ii_p2e.vpcf"
+			m_flDelay = 2.0
+		},
+		{
+			m_ChildRef = resource:"particles/7ychu5/ffxiv/summoner/summon_ifrit_ii_p2f.vpcf"
+			m_flDelay = 1.9
+		},
+		{
+			m_ChildRef = resource:"particles/7ychu5/ffxiv/summoner/summon_ifrit_ii_p2g.vpcf"
+			m_flDelay = 2.0
+		},
+		{
+			m_ChildRef = resource:"particles/7ychu5/ffxiv/summoner/summon_ifrit_ii_p2g.vpcf"
+			m_flDelay = 2.0
+		},
+		{
+			m_ChildRef = resource:"particles/7ychu5/ffxiv/summoner/summon_ifrit_ii_p2g.vpcf"
+			m_flDelay = 2.0
+		},
+		{
+			m_ChildRef = resource:"particles/7ychu5/ffxiv/summoner/summon_ifrit_ii_p2h.vpcf"
+		},
+	]
+}

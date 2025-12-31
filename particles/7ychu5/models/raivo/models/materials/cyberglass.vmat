@@ -1,0 +1,121 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "csgo_effects.vfx"
+
+	//---- Color ----
+	g_flColorBoost "8.000"
+	g_vColorTint "[1.000000 0.933333 0.000000 0.000000]"
+	g_vTexCoordScrollSpeed "[0.000 0.050]"
+	TextureColor "particles/7ychu5/models/raivo/noisesmooth03.png"
+
+	//---- Distance Fade ----
+	g_flFadeDistance "1.000"
+	g_flFadeFalloff "1.000"
+	g_flFadeMax "1.000"
+	g_flFadeMin "0.000"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Fresnel ----
+	g_flFresnelExponent "0.472"
+	g_flFresnelFalloff "1.000"
+	g_flFresnelMax "1.000"
+	g_flFresnelMin "0.000"
+
+	//---- Mask 1 ----
+	g_vMask1PanSpeed "[-0.050 -0.100]"
+	g_vMask1Scale "[1.000 1.000]"
+	TextureMask1 "particles/7ychu5/models/raivo/models/materials/hexagon_01.png"
+
+	//---- Mask 2 ----
+	g_vMask2PanSpeed "[0.000 0.000]"
+	g_vMask2Scale "[1.000 1.000]"
+	TextureMask2 "materials/default/default_mask.tga"
+
+	//---- Mask 3 ----
+	g_vMask3PanSpeed "[0.000 0.000]"
+	g_vMask3Scale "[1.000 1.000]"
+	TextureMask3 "materials/default/default_mask.tga"
+
+	//---- Texture Address Mode ----
+	g_nTextureAddressModeU "0" // Wrap
+	g_nTextureAddressModeV "0" // Wrap
+
+	//---- Translucent ----
+	g_flOpacityScale "1.000"
+	TextureTranslucency "materials/default/default_trans.tga"
+
+	UnusedVariables
+	{
+		"g_flBubbleDepthFalloff" "1.5"
+		"g_flBubbleOpacity" "0"
+		"g_flBubbleScale" "0.6"
+		"g_flBubblesMaximum" "0.65"
+		"g_flBubblesMinimum" "0.15"
+		"g_flBubbleSpaceScale" "0.75"
+		"g_flBubbleSpeed" "1"
+		"g_flBubbleStrength" "5"
+		"g_vBubbleColorInner" "[0.000000 0.000000 0.000000 0.000000]"
+		"g_vBubbleColorOuter" "[1.000000 1.000000 1.000000 0.000000]"
+		"g_flBrightenEmptyArea" "3"
+		"g_flLiquidBackFade" "0"
+		"g_flLiquidBackOffset" "6"
+		"g_flLiquidBrightness" "1"
+		"g_flLiquidEmissiveStrength" "0"
+		"g_flLiquidInnerGlow" "0.1"
+		"g_flLiquidLevelHeight" "0"
+		"g_flLiquidLevelHeightDelta" "0.3"
+		"g_flLiquidRoughness" "0.3"
+		"g_flLiquidSharpness" "30"
+		"g_flLiquidSpecularStrength" "1"
+		"g_flLiquidSurfaceSpecularStrength" "1"
+		"g_flLiquidWobbleScale" "0.01"
+		"g_flLiquidWobbleSpeed" "1"
+		"g_flLiquidWobbleWavelength" "1"
+		"g_flSurfaceTension" "0.5"
+		"g_flWaterLineStrength" "0.5"
+		"g_vLiquidColor" "[0.600000 0.400000 0.101961 0.000000]"
+		"g_vLiquidLevelDownwardsMinMidMax" "[-20.000 0.000 20.000]"
+		"g_vLiquidLevelSidewardsMinMidMax" "[-20.000 0.000 20.000]"
+		"g_vLiquidLevelUpwardsMinMidMax" "[-20.000 0.000 20.000]"
+		"g_flCubeRefractLiquidTransparency" "0.5"
+		"g_flTestAgitation" "0.3"
+		"g_vTestGravityDir" "[0.000 0.000 -1.000]"
+		"g_flAlphaTestReference" "0.3"
+	}
+
+
+	VariableState
+	{
+		"Color"
+		{
+		}
+		"Distance Fade"
+		{
+		}
+		"Fog"
+		{
+		}
+		"Fresnel"
+		{
+		}
+		"Mask 1"
+		{
+		}
+		"Mask 2"
+		{
+		}
+		"Mask 3"
+		{
+		}
+		"Texture Address Mode"
+		{
+		}
+		"Translucent"
+		{
+		}
+	}
+}

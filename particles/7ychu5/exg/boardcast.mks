@@ -1,0 +1,11 @@
+sequence 0
+frame humanwin.png 1
+
+sequence 1
+frame SOLDIERWIN.png 1
+
+sequence 2
+frame zombiewin.png 1
+
+sequence 3
+frame GHOSTWIN.png 1

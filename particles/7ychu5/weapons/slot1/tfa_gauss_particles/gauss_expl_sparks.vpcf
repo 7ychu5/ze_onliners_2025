@@ -1,0 +1,252 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf26:version{26288658-411e-4f14-b698-2e1e5d00dec6} -->
+{
+	m_nBehaviorVersion = 12
+	_class = "CParticleSystemDefinition"
+	m_Renderers = 
+	[
+		{
+			_class = "C_OP_RenderTrails"
+			m_hMaterial = resource:"materials/effects/spark.vmat"
+			VisibilityInputs = 
+			{
+				m_flRadiusScaleMax = 1.0
+				m_flRadiusScaleMin = 1.0
+				m_flAlphaScaleMax = 1.0
+				m_flAlphaScaleMin = 0.0
+				m_flInputMax = 1.0
+				m_flInputMin = 0.0
+				m_flProxyRadius = 1.0
+				m_nCPin = -1
+			}
+			m_flOpStartFadeInTime = 0.0
+			m_flOpEndFadeInTime = 0.0
+			m_flOpStartFadeOutTime = 0.0
+			m_flOpEndFadeOutTime = 0.0
+			m_flOpFadeOscillatePeriod = 0.0
+			m_flAnimationRate = 0.1
+			m_flLengthFadeInTime = 0.0
+			m_flMaxLength = 2000.0
+			m_flMinLength = 0.0
+			m_flDepthBias = 0.0
+		},
+	]
+
+	m_Operators = 
+	[
+		{
+			_class = "C_OP_FadeAndKill"
+			m_flOpFadeOscillatePeriod = 0.0
+			m_flEndFadeOutTime = 1.0
+			m_flStartFadeOutTime = 0.2
+			m_flEndFadeInTime = 0.1
+			m_flStartFadeInTime = 0.0
+			m_flEndAlpha = 0.0
+			m_flStartAlpha = 1.0
+			m_flOpEndFadeOutTime = 0.0
+			m_flOpStartFadeOutTime = 0.0
+			m_flOpEndFadeInTime = 0.0
+			m_flOpStartFadeInTime = 0.0
+		},
+		{
+			_class = "C_OP_InterpolateRadius"
+			m_flOpFadeOscillatePeriod = 0.0
+			m_flBias = 0.5
+			m_bEaseInAndOut = true
+			m_flEndScale = 0.0
+			m_flStartScale = 3.0
+			m_flEndTime = 1.0
+			m_flStartTime = 0.0
+			m_flOpEndFadeOutTime = 0.0
+			m_flOpStartFadeOutTime = 0.0
+			m_flOpEndFadeInTime = 0.0
+			m_flOpStartFadeInTime = 0.0
+		},
+		{
+			_class = "C_OP_BasicMovement"
+			m_flOpFadeOscillatePeriod = 0.0
+			m_nMaxConstraintPasses = 3
+			m_fDrag = 0.4
+			m_Gravity = [0.0, 0.0, 128.0]
+			m_flOpEndFadeOutTime = 0.0
+			m_flOpStartFadeOutTime = 0.0
+			m_flOpEndFadeInTime = 0.0
+			m_flOpStartFadeInTime = 0.0
+		},
+		{
+			_class = "C_OP_ColorInterpolate"
+			m_flOpStartFadeInTime = 0.0
+			m_flOpEndFadeInTime = 0.0
+			m_flOpStartFadeOutTime = 0.0
+			m_flOpEndFadeOutTime = 0.0
+			m_flOpFadeOscillatePeriod = 0.0
+			m_ColorFade = [147, 216, 255, 255]
+			m_flFadeStartTime = 0.3
+			m_flFadeEndTime = 0.7
+			m_bEaseInOut = true
+		},
+	]
+
+	m_Initializers = 
+	[
+		{
+			_class = "C_INIT_CreateWithinSphere"
+			m_flEndCPGrowthTime = 0.0
+			m_bUseHighestEndCP = false
+			m_vecDistanceBiasAbs = [0.0, 0.0, 0.0]
+			m_flOpFadeOscillatePeriod = 0.0
+			m_bLocalCoords = false
+			m_vecDistanceBias = [1.0, 1.0, 1.0]
+			m_LocalCoordinateSystemSpeedMax = [1200.0, 1200.0, 2330.0]
+			m_LocalCoordinateSystemSpeedMin = [-1200.0, -1200.0, 0.0]
+			m_fSpeedRandExp = 1.0
+			m_fSpeedMax = 0.0
+			m_fSpeedMin = 0.0
+			m_fRadiusMax = 0.0
+			m_fRadiusMin = 0.0
+			m_nControlPointNumber = 0
+			m_flOpEndFadeOutTime = 0.0
+			m_flOpStartFadeOutTime = 0.0
+			m_flOpEndFadeInTime = 0.0
+			m_flOpStartFadeInTime = 0.0
+		},
+		{
+			_class = "C_INIT_RandomRotation"
+			m_flOpFadeOscillatePeriod = 0.0
+			m_flRotationRandExponent = 1.0
+			m_flDegreesMax = 360.0
+			m_flDegreesMin = 0.0
+			m_flDegrees = 0.0
+			m_flOpEndFadeOutTime = 0.0
+			m_flOpStartFadeOutTime = 0.0
+			m_flOpEndFadeInTime = 0.0
+			m_flOpStartFadeInTime = 0.0
+		},
+		{
+			_class = "C_INIT_RandomLifeTime"
+			m_flOpFadeOscillatePeriod = 0.0
+			m_fLifetimeRandExponent = 1.0
+			m_fLifetimeMax = 4.0
+			m_fLifetimeMin = 1.5
+			m_flOpEndFadeOutTime = 0.0
+			m_flOpStartFadeOutTime = 0.0
+			m_flOpEndFadeInTime = 0.0
+			m_flOpStartFadeInTime = 0.0
+		},
+		{
+			_class = "C_INIT_RandomRadius"
+			m_flOpFadeOscillatePeriod = 0.0
+			m_flRadiusRandExponent = 1.0
+			m_flRadiusMax = 33.0
+			m_flRadiusMin = 0.1
+			m_flOpEndFadeOutTime = 0.0
+			m_flOpStartFadeOutTime = 0.0
+			m_flOpEndFadeInTime = 0.0
+			m_flOpStartFadeInTime = 0.0
+		},
+		{
+			_class = "C_INIT_RandomColor"
+			m_flUpdateThreshold = 32.0
+			m_TintMax = [255, 255, 255, 255]
+			m_TintMin = [0, 0, 0, 0]
+			m_nTintCP = 0
+			m_flOpFadeOscillatePeriod = 0.0
+			m_flTintPerc = 0.0
+			m_ColorMax = [60, 158, 215, 255]
+			m_ColorMin = [44, 103, 177, 255]
+			m_flOpEndFadeOutTime = 0.0
+			m_flOpStartFadeOutTime = 0.0
+			m_flOpEndFadeInTime = 0.0
+			m_flOpStartFadeInTime = 0.0
+		},
+		{
+			_class = "C_INIT_RandomTrailLength"
+			m_flOpStartFadeInTime = 0.0
+			m_flOpEndFadeInTime = 0.0
+			m_flOpStartFadeOutTime = 0.0
+			m_flOpEndFadeOutTime = 0.0
+			m_flOpFadeOscillatePeriod = 0.0
+			m_flMinLength = 0.01
+			m_flMaxLength = 0.05
+			m_flLengthRandExponent = 1.0
+		},
+	]
+
+	m_Emitters = 
+	[
+		{
+			_class = "C_OP_InstantaneousEmitter"
+			m_nScaleControlPointField = 0
+			m_nScaleControlPoint = -1
+			m_nParticlesToEmit = 24
+			m_nMaxEmittedPerFrame = 100
+			m_flOpFadeOscillatePeriod = 0.0
+			m_flStartTime = 0.0
+			m_flOpEndFadeOutTime = 0.0
+			m_flOpStartFadeOutTime = 0.0
+			m_flOpEndFadeInTime = 0.0
+			m_flOpStartFadeInTime = 0.0
+		},
+	]
+
+	m_ForceGenerators = 
+	[
+		{
+			_class = "C_OP_RandomForce"
+			m_MaxForce = [1800.0, 1800.0, 800.0]
+			m_MinForce = [-1800.0, -1800.0, -800.0]
+			m_flOpFadeOscillatePeriod = 0.0
+			m_flOpEndFadeOutTime = 0.0
+			m_flOpStartFadeOutTime = 0.0
+			m_flOpEndFadeInTime = 0.0
+			m_flOpStartFadeInTime = 0.0
+		},
+	]
+
+	m_Constraints = 
+	[
+		{
+			_class = "C_OP_WorldTraceConstraint"
+			m_flTraceTolerance = 24.0
+			m_bKillonContact = false
+			m_flCpMovementTolerance = 5.0
+			m_vecCpOffset = [0.0, 0.0, 0.0]
+			m_nCollisionMode = "COLLISION_MODE_PER_PARTICLE_TRACE"
+			m_CollisionGroupName = "NONE"
+			m_flRadiusScale = 1.0
+			m_flSlideAmount = 0.0
+			m_flBounceAmount = 2.0
+			m_flOpFadeOscillatePeriod = 0.0
+			m_flOpEndFadeOutTime = 0.0
+			m_flOpStartFadeOutTime = 0.0
+			m_flOpEndFadeInTime = 0.0
+			m_flOpStartFadeInTime = 0.0
+			m_bBrushOnly = true
+		},
+	]
+
+	m_bPreventnamebasedlookup = false
+	m_nMaxParticles = 42
+	m_nInitialParticles = 0
+	m_BoundingBoxMin = [-10.0, -10.0, -10.0]
+	m_BoundingBoxMax = [10.0, 10.0, 10.0]
+	m_flCullRadius = 0.0
+	m_flCullFillCost = 1.0
+	m_nCullControlPoint = 0
+	m_flConstantRadius = 5.0
+	m_ConstantColor = [255, 255, 255, 255]
+	m_flConstantRotation = 0.0
+	m_flConstantRotationSpeed = 0.0
+	m_nConstantSequenceNumber = 0
+	m_nConstantSequenceNumber1 = 0
+	m_nGroupID = 0
+	m_flMaximumTimeStep = 0.1
+	m_flMaximumSimTime = 0.0
+	m_flMinimumSimTime = 0.0
+	m_nMinimumFrames = 0
+	m_nSkipRenderControlPoint = -1
+	m_flMaxDrawDistance = 100000.0
+	m_flNoDrawTimeToGoToSleep = 8.0
+	m_bShouldSort = true
+	m_bShouldBatch = false
+	m_bViewModelEffect = false
+}

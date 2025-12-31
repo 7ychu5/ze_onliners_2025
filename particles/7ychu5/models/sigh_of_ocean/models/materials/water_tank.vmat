@@ -1,0 +1,117 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "csgo_simple_liquid.vfx"
+
+	//---- Force use the static test values ----
+	F_USE_TEST_VALUES 1
+
+	//---- Bubbles ----
+	g_flBubbleDepthFalloff "1.500"
+	g_flBubbleOpacity "0.000"
+	g_flBubbleScale "0.300"
+	g_flBubblesMaximum "0.650"
+	g_flBubblesMinimum "0.150"
+	g_flBubbleSpaceScale "0.750"
+	g_flBubbleSpeed "1.000"
+	g_flBubbleStrength "5.000"
+	g_vBubbleColorInner "[0.000000 0.000000 0.000000 0.000000]"
+	g_vBubbleColorOuter "[1.000000 1.000000 1.000000 0.000000]"
+
+	//---- Color ----
+	g_flModelTintAmount "1.000"
+	g_flTexCoordRotation "0.000"
+	g_nScaleTexCoordUByModelScaleAxis "0" // None
+	g_nScaleTexCoordVByModelScaleAxis "0" // None
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vTexCoordCenter "[0.500 0.500]"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+
+	//---- Liquid ----
+	g_flBrightenEmptyArea "1.000"
+	g_flFresnelGlassThickness "0.300"
+	g_flLiquidBackFade "4.000"
+	g_flLiquidBackOffset "4.000"
+	g_flLiquidBrightness "4.000"
+	g_flLiquidEmissiveStrength "0.100"
+	g_flLiquidInnerGlow "0.275"
+	g_flLiquidLevelHeight "0.570"
+	g_flLiquidLevelHeightDelta "0.300"
+	g_flLiquidRoughness "0.300"
+	g_flLiquidSharpness "63.542"
+	g_flLiquidSpecularStrength "10.000"
+	g_flLiquidSurfaceSpecularStrength "1.000"
+	g_flLiquidWobbleScale "0.050"
+	g_flLiquidWobbleSpeed "1.000"
+	g_flLiquidWobbleWavelength "2.000"
+	g_flMaskMaximum "1.000"
+	g_flMaskMinimum "0.000"
+	g_flSurfaceTension "0.000"
+	g_flTransmissiveStrength "4.000"
+	g_flWaterLineStrength "0.600"
+	g_vLiquidColor "[0.274510 0.509804 0.705882 1.000000]"
+	g_vLiquidLevelDownwardsMinMidMax "[-2.000 0.000 1.500]"
+	g_vLiquidLevelSidewardsMinMidMax "[-7.000 2.000 6.500]"
+	g_vLiquidLevelUpwardsMinMidMax "[-9.000 0.000 5.000]"
+	TextureLiquidMask "[0.005000 0.005000 0.005000 0.000000]"
+
+	//---- Refraction ----
+	g_flCubeRefractBrightness "1.000"
+	g_flCubeRefractLiquidTransparency "2.000"
+	g_flCubeRefractTransparency "0.500"
+	g_flRefractRoughnessMultiplier "0.250"
+
+	//---- Simple Material ----
+	TextureColorA "materials/default/default_color.tga"
+	TextureMetalnessA "materials/default/default_metal.tga"
+	TextureNormalA "materials/default/default_normal.tga"
+	TextureRoughnessA "materials/default/default_rough.tga"
+
+	//---- Test Values ----
+	g_flTestAgitation "0.300"
+	g_vTestGravityDir "[0.000 0.000 -1.000]"
+
+	//---- Texture Address Mode ----
+	g_nTextureAddressModeU "0" // Wrap
+	g_nTextureAddressModeV "0" // Wrap
+
+	Attributes
+	{
+		PreviewModel "particles/7ychu5/models/sigh_of_ocean/models/water_tank.vmdl"
+	}
+
+	DynamicParams
+	{
+		g_flTestAgitation "return (pow(1-$liquid_surface.z,.35)*.75)+.4"
+		g_vTestGravityDir "return -$liquid_surface;"
+	}
+
+
+	VariableState
+	{
+		"Bubbles"
+		{
+		}
+		"Color"
+		{
+		}
+		"Liquid"
+		{
+		}
+		"Refraction"
+		{
+		}
+		"Simple Material"
+		{
+		}
+		"Test Values"
+		{
+		}
+		"Texture Address Mode"
+		{
+		}
+	}
+}

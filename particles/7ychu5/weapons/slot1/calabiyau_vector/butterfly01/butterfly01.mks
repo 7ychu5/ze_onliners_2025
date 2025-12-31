@@ -1,0 +1,11 @@
+sequence 0
+loop
+frame image_0.png 1
+frame image_1.png 1
+frame image_2.png 1
+frame image_3.png 1
+frame image_4.png 1
+frame image_5.png 1
+frame image_6.png 1
+frame image_7.png 1
+frame image_8.png 1

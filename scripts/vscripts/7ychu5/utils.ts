@@ -1,4 +1,4 @@
-import { Entity, Instance, type Vector } from "cs_script/point_script";
+import { Entity, Instance, type QAngle, type Vector } from "cs_script/point_script";
 
 export const utils = {
     printl(a: any) {Instance.Msg(a)},
@@ -24,7 +24,27 @@ export const utils = {
         return { x: vec.x * scale, y: vec.y * scale, z: vec.z * scale };
     },
 
-    vectorDistance(x: number, y: number,z: number) {
-        return Math.sqrt(Math.pow(x,2)+Math.pow(y,2)+Math.pow(z,2))
+    vectorDistance(vec: Vector) {
+        return Math.sqrt(Math.pow(vec.x,2)+Math.pow(vec.y,2)+Math.pow(vec.z,2))
+    },
+
+    dotProduct(a: Vector, b: Vector): number {
+        return a.x * b.x + a.y * b.y + a.z * b.z;
+    },
+
+    normalizeVector(v: Vector): any {
+        const length = this.vectorDistance(v);
+        if (length === 0) return { x: 0, y: 0, z: 0 };
+        return { x: v.x / length, y: v.y / length, z: v.z / length };
+    },
+
+    angleToVector(angles: QAngle): any {
+        const pitch = (angles.pitch * Math.PI) / 180;
+        const yaw = (angles.yaw * Math.PI) / 180;
+        return {
+            x: Math.cos(yaw) * Math.cos(pitch),
+            y: Math.sin(yaw) * Math.cos(pitch),
+            z: -Math.sin(pitch)
+        };
     }
 }

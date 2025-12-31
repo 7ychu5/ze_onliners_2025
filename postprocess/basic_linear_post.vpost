@@ -19,6 +19,12 @@
 				m_flBloomThresholdWidth = 1.661
 				m_flSkyboxBloomStrength = 1.0
 				m_flBloomStartValue = 1.0
+				m_flComputeBloomStrength = 0.03
+				m_flComputeBloomThreshold = 1.0
+				m_flComputeBloomRadius = 0.6
+				m_flComputeBloomEffectsScale = 1.0
+				m_flComputeBloomLensDirtStrength = 0.0
+				m_flComputeBloomLensDirtBlackLevel = 0.1
 				m_flBlurWeight = 
 				[
 					0.1999, 0.1999, 0.1999, 0.1999,
@@ -43,12 +49,12 @@
 			m_params = 
 			{
 				m_flExposureBias = 0.0
-				m_flShoulderStrength = 0.0
+				m_flShoulderStrength = 0.8
 				m_flLinearStrength = 0.001
 				m_flLinearAngle = 0.001
 				m_flToeStrength = 1.0
 				m_flToeNum = 1.0
-				m_flToeDenom = 1.0
+				m_flToeDenom = 0.85
 				m_flWhitePoint = 1.498557
 				m_flLuminanceSource = 0.0
 				m_flExposureBiasShadows = 0.0
@@ -58,7 +64,6 @@
 				m_flMinHighlightLum = 2.0
 				m_flMaxHighlightLum = 8.0
 			}
-			m_bUseLocalTonemapOperator = true
 		},
 	]
 }

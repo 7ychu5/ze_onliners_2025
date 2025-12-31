@@ -1,0 +1,132 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc40:version{da0ab1f8-9722-4910-94b8-10b6a08c0934} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "Skeleton"
+				children = 
+				[
+					{
+						_class = "Bone"
+						name = "bottomBone"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						do_not_discard = false
+					},
+					{
+						_class = "Bone"
+						name = "topBone"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						do_not_discard = false
+					},
+				]
+			},
+			{
+				_class = "PhysicsJointList"
+				children = 
+				[
+					{
+						_class = "PhysicsJointRevolute"
+						disabled = true
+						parent_body = "bottomBone"
+						child_body = "topBone"
+						anchor_origin = [ 0.0, 0.0, 0.0 ]
+						anchor_angles = [ 0.0, 0.0, 0.0 ]
+						collision_enabled = false
+						motion_resistance = "none"
+						enable_limit = false
+						min_angle = 0.0
+						max_angle = 0.0
+					},
+					{
+						_class = "PhysicsJointWheel"
+						disabled = true
+						parent_body = "bottomBone"
+						child_body = "topBone"
+						anchor_origin = [ 0.0, 0.0, 0.0 ]
+						anchor_angles = [ 0.0, 0.0, 0.0 ]
+						collision_enabled = false
+						linear_frequency = 0.0
+						linear_damping_ratio = 0.0
+						enable_suspension_limit = true
+						min_suspension_offset = 0.0
+						max_suspension_offset = 0.0
+						enable_steering_limit = false
+						min_steering_angle = 0.0
+						max_steering_angle = 0.0
+						spin_axis_friction = 0.0
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = "bottomBone"
+						surface_prop = "item"
+						collision_prop = "default"
+						tool_material = ""
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 20.0, 30.0, 5.0 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = "topBone"
+						surface_prop = "item"
+						collision_prop = "default"
+						tool_material = ""
+						origin = [ -5.0, 10.0, 7.5 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 20.0, 30.0, 5.0 ]
+					},
+				]
+				leave_body_collision_unmodified = false
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderPrimitiveBox"
+						name = "bottom"
+						parent_bone = "bottomBone"
+						material_name = "dev/helper/testgrid.vmat"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						max_u = 1.0
+						max_v = 1.0
+						dimensions = [ 20.0, 30.0, 5.0 ]
+						segments_x = 1
+						segments_y = 1
+						segments_z = 1
+					},
+					{
+						_class = "RenderPrimitiveBox"
+						name = "top"
+						parent_bone = "topBone"
+						material_name = "dev/helper/testgrid.vmat"
+						origin = [ -5.0, 10.0, 7.5 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						max_u = 1.0
+						max_v = 1.0
+						dimensions = [ 20.0, 30.0, 5.0 ]
+						segments_x = 1
+						segments_y = 1
+						segments_z = 1
+					},
+				]
+			},
+		]
+		model_archetype = "jointed_physics_model"
+		primary_associated_entity = "prop_ragdoll"
+		anim_graph_name = ""
+		document_sub_type = "ModelDocSubType_None"
+	}
+}

@@ -1,0 +1,261 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc37:version{9e04b9aa-f073-4e59-8923-ff57489eb2c7} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "Skeleton"
+				children = 
+				[
+					{
+						_class = "Bone"
+						name = "Point_3"
+						origin = [ -50.0, -50.0, 0.0 ]
+						angles = [ -0.0, 0.0, 0.0 ]
+						do_not_discard = true
+					},
+					{
+						_class = "Bone"
+						name = "Point_1"
+						origin = [ -50.0, 50.0, 0.0 ]
+						angles = [ -0.0, 0.0, 0.0 ]
+						do_not_discard = true
+					},
+					{
+						_class = "Bone"
+						name = "Point_2"
+						origin = [ 50.0, 50.0, 0.0 ]
+						angles = [ -0.0, 0.0, 0.0 ]
+						do_not_discard = true
+					},
+					{
+						_class = "Bone"
+						name = "Point_4"
+						origin = [ 50.0, -50.0, 0.0 ]
+						angles = [ -0.0, 0.0, 0.0 ]
+						do_not_discard = true
+					},
+					{
+						_class = "Bone"
+						name = "Dummy001"
+						children = 
+						[
+							{
+								_class = "Bone"
+								name = "Point_plane002"
+								children = 
+								[
+									{
+										_class = "Bone"
+										name = "Sphere003"
+										origin = [ -0.000002, 0.000002, 79.813568 ]
+										angles = [ 0.000003, 89.999969, 89.999969 ]
+										do_not_discard = true
+									},
+								]
+								origin = [ 0.0, -0.0, -0.000002 ]
+								angles = [ 89.999969, 90.000023, 0.0 ]
+								do_not_discard = true
+							},
+							{
+								_class = "Bone"
+								name = "Point_plane005"
+								children = 
+								[
+									{
+										_class = "Bone"
+										name = "Sphere007"
+										origin = [ 0.000006, 0.0, 79.81356 ]
+										angles = [ 0.000027, 90.0, 90.000008 ]
+										do_not_discard = true
+									},
+								]
+								origin = [ 0.0, -0.0, -0.000006 ]
+								angles = [ 45.000019, -179.999924, 90.0 ]
+								do_not_discard = true
+							},
+							{
+								_class = "Bone"
+								name = "Point_plane004"
+								children = 
+								[
+									{
+										_class = "Bone"
+										name = "Sphere004"
+										origin = [ -0.000002, 0.000002, 79.813568 ]
+										angles = [ -0.000034, -179.999924, 90.000015 ]
+										do_not_discard = true
+									},
+								]
+								origin = [ 0.0, -0.0, -0.000003 ]
+								angles = [ 89.999969, 90.000023, 0.0 ]
+								do_not_discard = true
+							},
+							{
+								_class = "Bone"
+								name = "Point_plane007"
+								children = 
+								[
+									{
+										_class = "Bone"
+										name = "Sphere008"
+										origin = [ 0.000006, 0.0, 79.813568 ]
+										angles = [ 0.000035, -179.999924, 90.000015 ]
+										do_not_discard = true
+									},
+								]
+								origin = [ -0.0, -0.0, 0.0 ]
+								angles = [ 45.000019, -179.999924, 90.0 ]
+								do_not_discard = true
+							},
+							{
+								_class = "Bone"
+								name = "Point_plane003"
+								children = 
+								[
+									{
+										_class = "Bone"
+										name = "Sphere005"
+										origin = [ -0.000002, 0.000002, 79.813568 ]
+										angles = [ -0.000003, -89.999969, 89.999969 ]
+										do_not_discard = true
+									},
+								]
+								origin = [ -0.0, -0.0, 0.000002 ]
+								angles = [ 89.999969, 90.000023, 0.0 ]
+								do_not_discard = true
+							},
+							{
+								_class = "Bone"
+								name = "Point_plane008"
+								children = 
+								[
+									{
+										_class = "Bone"
+										name = "Sphere009"
+										origin = [ 0.000006, 0.0, 79.813553 ]
+										angles = [ -0.000001, -89.999985, 89.999962 ]
+										do_not_discard = true
+									},
+								]
+								origin = [ 0.0, -0.0, -0.000006 ]
+								angles = [ 45.000019, -179.999924, 90.0 ]
+								do_not_discard = true
+							},
+							{
+								_class = "Bone"
+								name = "Point_plane1"
+								children = 
+								[
+									{
+										_class = "Bone"
+										name = "Sphere002"
+										origin = [ -0.000002, 0.000002, 79.813568 ]
+										angles = [ -0.000002, -0.000001, 89.999954 ]
+										do_not_discard = true
+									},
+								]
+								origin = [ -0.0, -0.0, 0.000014 ]
+								angles = [ 89.999969, 90.000023, 0.0 ]
+								do_not_discard = true
+							},
+							{
+								_class = "Bone"
+								name = "Point_plane006"
+								children = 
+								[
+									{
+										_class = "Bone"
+										name = "Sphere006"
+										origin = [ 0.000006, 0.0, 79.813553 ]
+										angles = [ 0.0, -0.000002, 89.999954 ]
+										do_not_discard = true
+									},
+								]
+								origin = [ 0.0, -0.0, -0.000004 ]
+								angles = [ 45.000019, -179.999924, 90.0 ]
+								do_not_discard = true
+							},
+						]
+						origin = [ 0.000003, 0.0, 0.0 ]
+						angles = [ 0.000029, -90.000008, 90.000008 ]
+						do_not_discard = true
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "0b_wave1.vmat"
+								to = "particles/7ychu5/weapons/slot1/csol_pianogun/models/materials/0b_wave1.vmat"
+							},
+							{
+								from = "0b_wave_b.vmat"
+								to = "particles/7ychu5/weapons/slot1/csol_pianogun/models/materials/0b_wave_b.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "particles/7ychu5/weapons/slot1/csol_pianogun/models/ref_wave_b.dmx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "idle"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "particles/7ychu5/weapons/slot1/csol_pianogun/models/anims/idle.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		document_sub_type = "ModelDocSubType_None"
+	}
+}

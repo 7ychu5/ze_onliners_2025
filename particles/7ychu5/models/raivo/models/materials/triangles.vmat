@@ -1,0 +1,85 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "csgo_effects.vfx"
+
+	//---- 2-Sided Rendering ----
+	F_RENDER_BACKFACES 1
+
+	//---- Color ----
+	g_flColorBoost "8.000"
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+	TextureColor "particles/7ychu5/models/raivo/models/materials/triangles.png"
+
+	//---- Distance Fade ----
+	g_flFadeDistance "1.000"
+	g_flFadeFalloff "1.000"
+	g_flFadeMax "1.000"
+	g_flFadeMin "0.000"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Fresnel ----
+	g_flFresnelExponent "0.001"
+	g_flFresnelFalloff "1.000"
+	g_flFresnelMax "1.000"
+	g_flFresnelMin "0.000"
+
+	//---- Mask 1 ----
+	g_vMask1PanSpeed "[0.000 0.000]"
+	g_vMask1Scale "[1.000 1.000]"
+	TextureMask1 "particles/7ychu5/models/raivo/models/materials/triangles.png"
+
+	//---- Mask 2 ----
+	g_vMask2PanSpeed "[0.000 0.000]"
+	g_vMask2Scale "[1.000 1.000]"
+	TextureMask2 "materials/default/default_mask.tga"
+
+	//---- Mask 3 ----
+	g_vMask3PanSpeed "[0.000 0.000]"
+	g_vMask3Scale "[1.000 1.000]"
+	TextureMask3 "materials/default/default_mask.tga"
+
+	//---- Texture Address Mode ----
+	g_nTextureAddressModeU "0" // Wrap
+	g_nTextureAddressModeV "0" // Wrap
+
+	//---- Translucent ----
+	g_flOpacityScale "1.000"
+	TextureTranslucency "materials/default/default_trans.tga"
+
+
+	VariableState
+	{
+		"Color"
+		{
+		}
+		"Distance Fade"
+		{
+		}
+		"Fog"
+		{
+		}
+		"Fresnel"
+		{
+		}
+		"Mask 1"
+		{
+		}
+		"Mask 2"
+		{
+		}
+		"Mask 3"
+		{
+		}
+		"Texture Address Mode"
+		{
+		}
+		"Translucent"
+		{
+		}
+	}
+}

@@ -1,0 +1,144 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc40:version{da0ab1f8-9722-4910-94b8-10b6a08c0934} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "BodyGroupList"
+				children = 
+				[
+					{
+						_class = "BodyGroup"
+						name = "main"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "part1"
+								meshes = 
+								[
+									"part1",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "part2"
+								meshes = 
+								[
+									"part2",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "part3"
+								meshes = 
+								[
+									"part3",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "part4"
+								meshes = 
+								[
+									"part4",
+								]
+							},
+						]
+						hidden_in_tools = false
+						non_bodygroup_single_choice = false
+						suppress_missing_warnings = false
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = [  ]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "part1"
+						filename = "particles/7ychu5/hoshics/weapon_sp/ice_lover/models/ice_cluster.dmx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"ice_cluster_p2",
+								"ice_cluster_p3",
+								"ice_cluster_p4",
+							]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "part2"
+						filename = "particles/7ychu5/hoshics/weapon_sp/ice_lover/models/ice_cluster.dmx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"ice_cluster_p3",
+								"ice_cluster_p4",
+								"ice_cluster_p1",
+							]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "part3"
+						filename = "particles/7ychu5/hoshics/weapon_sp/ice_lover/models/ice_cluster.dmx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"ice_cluster_p2",
+								"ice_cluster_p4",
+								"ice_cluster_p1",
+							]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "part4"
+						filename = "particles/7ychu5/hoshics/weapon_sp/ice_lover/models/ice_cluster.dmx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"ice_cluster_p3",
+								"ice_cluster_p2",
+								"ice_cluster_p1",
+							]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		document_sub_type = "ModelDocSubType_None"
+	}
+}

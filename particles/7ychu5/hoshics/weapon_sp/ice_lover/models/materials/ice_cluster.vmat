@@ -1,0 +1,81 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "csgo_simple_liquid.vfx"
+
+	//---- 2-Sided Rendering ----
+	F_RENDER_BACKFACES 1
+
+	//---- Empty Bottle ----
+	F_NO_LIQUID 1
+
+	//---- Color ----
+	g_flModelTintAmount "1.000"
+	g_flTexCoordRotation "0.000"
+	g_nScaleTexCoordUByModelScaleAxis "0" // None
+	g_nScaleTexCoordVByModelScaleAxis "0" // None
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vTexCoordCenter "[0.500 0.500]"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+
+	//---- Liquid ----
+	g_flFresnelGlassThickness "0.400"
+	g_flMaskMaximum "1.000"
+	g_flMaskMinimum "0.000"
+	g_flTransmissiveStrength "1.000"
+	TextureLiquidMask "[0.000000 0.000000 0.000000 0.000000]"
+
+	//---- Refraction ----
+	g_flCubeRefractBrightness "1.000"
+	g_flCubeRefractTransparency "0.500"
+	g_flRefractRoughnessMultiplier "1.000"
+
+	//---- Simple Material ----
+	TextureColorA "[0.529412 0.807843 0.980392 1.000000]"
+	TextureMetalnessA "[0.750000 0.750000 0.750000 0.000000]"
+	TextureNormalA "particles/7ychu5/hoshics/weapon_sp/ice_lover/models/materials/ice_cluster.normal.png"
+	TextureRoughnessA "[0.188235 0.188235 0.188235 0.000000]"
+
+	//---- Texture Address Mode ----
+	g_nTextureAddressModeU "0" // Wrap
+	g_nTextureAddressModeV "0" // Wrap
+
+	UnusedVariables
+	{
+		"g_flBubbleDepthFalloff" "1.5"
+		"g_flBubbleOpacity" "0"
+		"g_flBubbleScale" "0.6"
+		"g_flBubblesMaximum" "0.65"
+		"g_flBubblesMinimum" "0.15"
+		"g_flBubbleSpaceScale" "0.75"
+		"g_flBubbleSpeed" "1"
+		"g_flBubbleStrength" "5"
+		"g_vBubbleColorInner" "[0.000000 0.000000 0.000000 0.000000]"
+		"g_vBubbleColorOuter" "[1.000000 1.000000 1.000000 0.000000]"
+		"g_flBrightenEmptyArea" "3"
+		"g_flLiquidBackFade" "0"
+		"g_flLiquidBackOffset" "6"
+		"g_flLiquidBrightness" "1"
+		"g_flLiquidEmissiveStrength" "0"
+		"g_flLiquidInnerGlow" "0.1"
+		"g_flLiquidLevelHeight" "0"
+		"g_flLiquidLevelHeightDelta" "0.3"
+		"g_flLiquidRoughness" "0.3"
+		"g_flLiquidSharpness" "30"
+		"g_flLiquidSpecularStrength" "1"
+		"g_flLiquidSurfaceSpecularStrength" "1"
+		"g_flLiquidWobbleScale" "0.01"
+		"g_flLiquidWobbleSpeed" "1"
+		"g_flLiquidWobbleWavelength" "1"
+		"g_flSurfaceTension" "0.5"
+		"g_flWaterLineStrength" "0.5"
+		"g_vLiquidColor" "[0.600000 0.400000 0.101961 0.000000]"
+		"g_vLiquidLevelDownwardsMinMidMax" "[-20.000 0.000 20.000]"
+		"g_vLiquidLevelSidewardsMinMidMax" "[-20.000 0.000 20.000]"
+		"g_vLiquidLevelUpwardsMinMidMax" "[-20.000 0.000 20.000]"
+		"g_flCubeRefractLiquidTransparency" "0.5"
+	}
+}

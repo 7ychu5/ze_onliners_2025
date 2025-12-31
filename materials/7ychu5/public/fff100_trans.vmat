@@ -1,0 +1,103 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "csgo_effects.vfx"
+
+	//---- Shadows ----
+	F_DO_NOT_CAST_SHADOWS 1
+
+	//---- Color ----
+	g_flColorBoost "1.000"
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+	TextureColor "[1.000000 0.941176 0.000000 0.000000]"
+
+	//---- Distance Fade ----
+	g_flFadeDistance "1.000"
+	g_flFadeFalloff "1.000"
+	g_flFadeMax "1.000"
+	g_flFadeMin "0.000"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Fresnel ----
+	g_flFresnelExponent "0.001"
+	g_flFresnelFalloff "1.000"
+	g_flFresnelMax "1.000"
+	g_flFresnelMin "0.000"
+
+	//---- Mask 1 ----
+	g_vMask1PanSpeed "[0.000 0.000]"
+	g_vMask1Scale "[1.000 1.000]"
+	TextureMask1 "materials/default/default_mask.tga"
+
+	//---- Mask 2 ----
+	g_vMask2PanSpeed "[0.000 0.000]"
+	g_vMask2Scale "[1.000 1.000]"
+	TextureMask2 "materials/default/default_mask.tga"
+
+	//---- Mask 3 ----
+	g_vMask3PanSpeed "[0.000 0.000]"
+	g_vMask3Scale "[1.000 1.000]"
+	TextureMask3 "materials/default/default_mask.tga"
+
+	//---- Texture Address Mode ----
+	g_nTextureAddressModeU "0" // Wrap
+	g_nTextureAddressModeV "0" // Wrap
+
+	//---- Translucent ----
+	g_flOpacityScale "0.150"
+	TextureTranslucency "materials/default/default_trans.tga"
+
+	Attributes
+	{
+		alpha ".15"
+	}
+
+	DynamicParams
+	{
+		g_flOpacityScale "alpha"
+	}
+
+	UnusedVariables
+	{
+		"g_flBreakBounceFloor" "64"
+		"g_flBreakShotSize" "100"
+		"g_flBreakTime" "0"
+		"g_vBreakShotPosition" "[0.000 0.000 0.000]"
+	}
+
+
+	VariableState
+	{
+		"Color"
+		{
+		}
+		"Distance Fade"
+		{
+		}
+		"Fog"
+		{
+		}
+		"Fresnel"
+		{
+		}
+		"Mask 1"
+		{
+		}
+		"Mask 2"
+		{
+		}
+		"Mask 3"
+		{
+		}
+		"Texture Address Mode"
+		{
+		}
+		"Translucent"
+		{
+		}
+	}
+}

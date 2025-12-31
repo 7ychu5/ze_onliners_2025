@@ -1,0 +1,1215 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc40:version{da0ab1f8-9722-4910-94b8-10b6a08c0934} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "Skeleton"
+				children = 
+				[
+					{
+						_class = "Bone"
+						name = "Bone"
+						children = 
+						[
+							{
+								_class = "Bone"
+								name = "Bone_001"
+								children = 
+								[
+									{
+										_class = "Bone"
+										name = "Bone_002"
+										origin = [ 0.0, 33.194366, 0.0 ]
+										angles = [ -0.951892, 0.046287, -2.784086 ]
+										do_not_discard = true
+									},
+								]
+								origin = [ 0.0, 10.000004, 0.0 ]
+								angles = [ -0.000009, -0.00001, -133.69606 ]
+								do_not_discard = true
+							},
+							{
+								_class = "Bone"
+								name = "Bone_003"
+								children = 
+								[
+									{
+										_class = "Bone"
+										name = "Bone_004"
+										origin = [ -0.000002, 33.194363, 0.0 ]
+										angles = [ 0.515223, -1.494638, -2.362159 ]
+										do_not_discard = true
+									},
+								]
+								origin = [ 0.0, 10.000004, 0.0 ]
+								angles = [ 19.978245, -24.013809, -147.044724 ]
+								do_not_discard = true
+							},
+							{
+								_class = "Bone"
+								name = "Bone_005"
+								children = 
+								[
+									{
+										_class = "Bone"
+										name = "Bone_006"
+										origin = [ 0.0, 33.194355, 0.0 ]
+										angles = [ 2.017889, -2.542865, -1.22615 ]
+										do_not_discard = true
+									},
+								]
+								origin = [ 0.0, 10.000004, 0.0 ]
+								angles = [ 26.125597, -46.303925, 179.999985 ]
+								do_not_discard = true
+							},
+							{
+								_class = "Bone"
+								name = "Bone_007"
+								children = 
+								[
+									{
+										_class = "Bone"
+										name = "Bone_008"
+										origin = [ -0.000008, 33.194382, 0.000002 ]
+										angles = [ 3.550922, -2.751938, 0.282298 ]
+										do_not_discard = true
+									},
+								]
+								origin = [ 0.0, 10.000004, 0.0 ]
+								angles = [ 24.48041, -52.21809, 145.823227 ]
+								do_not_discard = true
+							},
+							{
+								_class = "Bone"
+								name = "Bone_009"
+								children = 
+								[
+									{
+										_class = "Bone"
+										name = "Bone_010"
+										origin = [ -0.000002, 33.194359, 0.000002 ]
+										angles = [ 5.073714, -2.050417, 1.710468 ]
+										do_not_discard = true
+									},
+								]
+								origin = [ 0.0, 10.000004, 0.0 ]
+								angles = [ 33.109673, -43.040199, 120.325539 ]
+								do_not_discard = true
+							},
+							{
+								_class = "Bone"
+								name = "Bone_011"
+								children = 
+								[
+									{
+										_class = "Bone"
+										name = "Bone_012"
+										origin = [ -0.000002, 33.194359, -0.000004 ]
+										angles = [ 6.557445, -0.666791, 2.62764 ]
+										do_not_discard = true
+									},
+								]
+								origin = [ 0.0, 10.000004, 0.0 ]
+								angles = [ 56.378654, -26.957069, 112.582329 ]
+								do_not_discard = true
+							},
+							{
+								_class = "Bone"
+								name = "Bone_013"
+								children = 
+								[
+									{
+										_class = "Bone"
+										name = "Bone_014"
+										origin = [ 0.000001, 33.194359, 0.0 ]
+										angles = [ 8.0188, 0.945666, 2.753528 ]
+										do_not_discard = true
+									},
+								]
+								origin = [ 0.0, 10.000004, 0.0 ]
+								angles = [ 78.376831, 46.303864, 179.999924 ]
+								do_not_discard = true
+							},
+							{
+								_class = "Bone"
+								name = "Bone_015"
+								children = 
+								[
+									{
+										_class = "Bone"
+										name = "Bone_016"
+										origin = [ -0.000004, 33.194363, 0.0 ]
+										angles = [ 9.654924, 2.368665, 1.913251 ]
+										do_not_discard = true
+									},
+								]
+								origin = [ 0.0, 10.000004, 0.0 ]
+								angles = [ 55.564831, 109.916565, -101.631401 ]
+								do_not_discard = true
+							},
+						]
+						origin = [ 0.0, 0.0, 39.0 ]
+						angles = [ -0.0, 0.0, 90.0 ]
+						do_not_discard = true
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "models/7ychu5/test/materials/no_material.vmat"
+								to = "materials/dev/reflectivity_30.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "PhysicsJointList"
+				children = 
+				[
+					{
+						_class = "PhysicsJointRevolute"
+						disabled = true
+						parent_body = "bottomBone"
+						child_body = "topBone"
+						anchor_origin = [ 0.0, 0.0, 0.0 ]
+						anchor_angles = [ 0.0, 0.0, 0.0 ]
+						collision_enabled = false
+						motion_resistance = "none"
+						enable_limit = false
+						min_angle = 0.0
+						max_angle = 0.0
+					},
+					{
+						_class = "PhysicsJointWheel"
+						disabled = true
+						parent_body = "bottomBone"
+						child_body = "topBone"
+						anchor_origin = [ 0.0, 0.0, 0.0 ]
+						anchor_angles = [ 0.0, 0.0, 0.0 ]
+						collision_enabled = false
+						linear_frequency = 0.0
+						linear_damping_ratio = 0.0
+						enable_suspension_limit = true
+						min_suspension_offset = 0.0
+						max_suspension_offset = 0.0
+						enable_steering_limit = false
+						min_steering_angle = 0.0
+						max_steering_angle = 0.0
+						spin_axis_friction = 0.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "Bone"
+						child_body = "Bone_001"
+						anchor_origin = [ 0.0, 0.0, 0.0 ]
+						anchor_angles = [ 0.0, 0.0, 0.0 ]
+						collision_enabled = false
+						motion_resistance = "none"
+						enable_swing_limit = false
+						swing_limit = 0.0
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = false
+						min_twist_angle = 0.0
+						max_twist_angle = 0.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "Bone"
+						child_body = "Bone_003"
+						anchor_origin = [ 0.0, 0.0, 0.0 ]
+						anchor_angles = [ 0.0, 0.0, 0.0 ]
+						collision_enabled = false
+						motion_resistance = "none"
+						enable_swing_limit = false
+						swing_limit = 0.0
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = false
+						min_twist_angle = 0.0
+						max_twist_angle = 0.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "Bone"
+						child_body = "Bone_005"
+						anchor_origin = [ 0.0, 0.0, 0.0 ]
+						anchor_angles = [ 0.0, 0.0, 0.0 ]
+						collision_enabled = false
+						motion_resistance = "none"
+						enable_swing_limit = false
+						swing_limit = 0.0
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = false
+						min_twist_angle = 0.0
+						max_twist_angle = 0.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "Bone"
+						child_body = "Bone_007"
+						anchor_origin = [ 0.0, 0.0, 0.0 ]
+						anchor_angles = [ 0.0, 0.0, 0.0 ]
+						collision_enabled = false
+						motion_resistance = "none"
+						enable_swing_limit = false
+						swing_limit = 0.0
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = false
+						min_twist_angle = 0.0
+						max_twist_angle = 0.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "Bone"
+						child_body = "Bone_009"
+						anchor_origin = [ 0.0, 0.0, 0.0 ]
+						anchor_angles = [ 0.0, 0.0, 0.0 ]
+						collision_enabled = false
+						motion_resistance = "none"
+						enable_swing_limit = false
+						swing_limit = 0.0
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = false
+						min_twist_angle = 0.0
+						max_twist_angle = 0.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "Bone"
+						child_body = "Bone_011"
+						anchor_origin = [ 0.0, 0.0, 0.0 ]
+						anchor_angles = [ 0.0, 0.0, 0.0 ]
+						collision_enabled = false
+						motion_resistance = "none"
+						enable_swing_limit = false
+						swing_limit = 0.0
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = false
+						min_twist_angle = 0.0
+						max_twist_angle = 0.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "Bone"
+						child_body = "Bone_013"
+						anchor_origin = [ 0.0, 0.0, 0.0 ]
+						anchor_angles = [ 0.0, 0.0, 0.0 ]
+						collision_enabled = false
+						motion_resistance = "none"
+						enable_swing_limit = false
+						swing_limit = 0.0
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = false
+						min_twist_angle = 0.0
+						max_twist_angle = 0.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "Bone"
+						child_body = "Bone_015"
+						anchor_origin = [ 0.0, 0.0, 0.0 ]
+						anchor_angles = [ 0.0, 0.0, 0.0 ]
+						collision_enabled = false
+						motion_resistance = "none"
+						enable_swing_limit = false
+						swing_limit = 0.0
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = false
+						min_twist_angle = 0.0
+						max_twist_angle = 0.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "Bone_001"
+						child_body = "Bone_002"
+						anchor_origin = [ 0.0, 0.0, 0.0 ]
+						anchor_angles = [ 0.0, 0.0, 0.0 ]
+						collision_enabled = false
+						motion_resistance = "none"
+						enable_swing_limit = false
+						swing_limit = 0.0
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = false
+						min_twist_angle = 0.0
+						max_twist_angle = 0.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "Bone_003"
+						child_body = "Bone_004"
+						anchor_origin = [ 0.0, 0.0, 0.0 ]
+						anchor_angles = [ 0.0, 0.0, 0.0 ]
+						collision_enabled = false
+						motion_resistance = "none"
+						enable_swing_limit = false
+						swing_limit = 0.0
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = false
+						min_twist_angle = 0.0
+						max_twist_angle = 0.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "Bone_005"
+						child_body = "Bone_006"
+						anchor_origin = [ 0.0, 0.0, 0.0 ]
+						anchor_angles = [ 0.0, 0.0, 0.0 ]
+						collision_enabled = false
+						motion_resistance = "none"
+						enable_swing_limit = false
+						swing_limit = 0.0
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = false
+						min_twist_angle = 0.0
+						max_twist_angle = 0.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "Bone_007"
+						child_body = "Bone_008"
+						anchor_origin = [ 0.0, 0.0, 0.0 ]
+						anchor_angles = [ 0.0, 0.0, 0.0 ]
+						collision_enabled = false
+						motion_resistance = "none"
+						enable_swing_limit = false
+						swing_limit = 0.0
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = false
+						min_twist_angle = 0.0
+						max_twist_angle = 0.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "Bone_009"
+						child_body = "Bone_010"
+						anchor_origin = [ 0.0, 0.0, 0.0 ]
+						anchor_angles = [ 0.0, 0.0, 0.0 ]
+						collision_enabled = false
+						motion_resistance = "none"
+						enable_swing_limit = false
+						swing_limit = 0.0
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = false
+						min_twist_angle = 0.0
+						max_twist_angle = 0.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "Bone_011"
+						child_body = "Bone_012"
+						anchor_origin = [ 0.0, 0.0, 0.0 ]
+						anchor_angles = [ 0.0, 0.0, 0.0 ]
+						collision_enabled = false
+						motion_resistance = "none"
+						enable_swing_limit = false
+						swing_limit = 0.0
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = false
+						min_twist_angle = 0.0
+						max_twist_angle = 0.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "Bone_013"
+						child_body = "Bone_014"
+						anchor_origin = [ 0.0, 0.0, 0.0 ]
+						anchor_angles = [ 0.0, 0.0, 0.0 ]
+						collision_enabled = false
+						motion_resistance = "none"
+						enable_swing_limit = false
+						swing_limit = 0.0
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = false
+						min_twist_angle = 0.0
+						max_twist_angle = 0.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "Bone_015"
+						child_body = "Bone_016"
+						anchor_origin = [ 0.0, 0.0, 0.0 ]
+						anchor_angles = [ 0.0, 0.0, 0.0 ]
+						collision_enabled = false
+						motion_resistance = "none"
+						enable_swing_limit = false
+						swing_limit = 0.0
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = false
+						min_twist_angle = 0.0
+						max_twist_angle = 0.0
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFile"
+						name = "head"
+						parent_bone = "Bone"
+						surface_prop = "flesh"
+						collision_prop = "default"
+						tool_material = ""
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/7ychu5/test/ik_test.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						small_element_threshold = 0.0
+						thin_element_threshold = 0.0
+						optimization_algorithm = "QEM"
+						disable_region_svm = false
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"leg01_up",
+								"leg02_up",
+								"leg03_up",
+								"leg04_up",
+								"leg05_up",
+								"leg06_up",
+								"leg07_up",
+								"leg08_up",
+								"leg01_down",
+								"leg02_down",
+								"leg03_down",
+								"leg04_down",
+								"leg05_down",
+								"leg06_down",
+								"leg07_down",
+								"leg08_down",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "leg01_up"
+						parent_bone = "Bone_001"
+						surface_prop = "flesh"
+						collision_prop = "default"
+						tool_material = ""
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/7ychu5/test/ik_test.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						small_element_threshold = 0.0
+						thin_element_threshold = 0.0
+						optimization_algorithm = "QEM"
+						disable_region_svm = false
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"leg02_up",
+								"leg03_up",
+								"leg04_up",
+								"leg05_up",
+								"leg06_up",
+								"leg07_up",
+								"leg08_up",
+								"leg01_down",
+								"leg02_down",
+								"leg03_down",
+								"leg04_down",
+								"leg05_down",
+								"leg06_down",
+								"leg07_down",
+								"leg08_down",
+								"head",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "leg02_up"
+						parent_bone = "Bone_013"
+						surface_prop = "flesh"
+						collision_prop = "default"
+						tool_material = ""
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/7ychu5/test/ik_test.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						small_element_threshold = 0.0
+						thin_element_threshold = 0.0
+						optimization_algorithm = "QEM"
+						disable_region_svm = false
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"leg01_up",
+								"leg03_up",
+								"leg04_up",
+								"leg05_up",
+								"leg06_up",
+								"leg07_up",
+								"leg08_up",
+								"leg01_down",
+								"leg02_down",
+								"leg03_down",
+								"leg04_down",
+								"leg05_down",
+								"leg06_down",
+								"leg07_down",
+								"leg08_down",
+								"head",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "leg03_up"
+						parent_bone = "Bone_009"
+						surface_prop = "flesh"
+						collision_prop = "default"
+						tool_material = ""
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/7ychu5/test/ik_test.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						small_element_threshold = 0.0
+						thin_element_threshold = 0.0
+						optimization_algorithm = "QEM"
+						disable_region_svm = false
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"leg01_up",
+								"leg02_up",
+								"leg04_up",
+								"leg05_up",
+								"leg06_up",
+								"leg07_up",
+								"leg08_up",
+								"leg01_down",
+								"leg02_down",
+								"leg03_down",
+								"leg04_down",
+								"leg05_down",
+								"leg06_down",
+								"leg07_down",
+								"leg08_down",
+								"head",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "leg04_up"
+						parent_bone = "Bone_005"
+						surface_prop = "flesh"
+						collision_prop = "default"
+						tool_material = ""
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/7ychu5/test/ik_test.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						small_element_threshold = 0.0
+						thin_element_threshold = 0.0
+						optimization_algorithm = "QEM"
+						disable_region_svm = false
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"leg01_up",
+								"leg02_up",
+								"leg03_up",
+								"leg05_up",
+								"leg06_up",
+								"leg07_up",
+								"leg08_up",
+								"leg01_down",
+								"leg02_down",
+								"leg03_down",
+								"leg04_down",
+								"leg05_down",
+								"leg06_down",
+								"leg07_down",
+								"leg08_down",
+								"head",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "leg05_up"
+						parent_bone = "Bone_003"
+						surface_prop = "flesh"
+						collision_prop = "default"
+						tool_material = ""
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/7ychu5/test/ik_test.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						small_element_threshold = 0.0
+						thin_element_threshold = 0.0
+						optimization_algorithm = "QEM"
+						disable_region_svm = false
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"leg01_up",
+								"leg02_up",
+								"leg03_up",
+								"leg04_up",
+								"leg06_up",
+								"leg07_up",
+								"leg08_up",
+								"leg01_down",
+								"leg02_down",
+								"leg03_down",
+								"leg04_down",
+								"leg05_down",
+								"leg06_down",
+								"leg07_down",
+								"leg08_down",
+								"head",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "leg06_up"
+						parent_bone = "Bone_015"
+						surface_prop = "flesh"
+						collision_prop = "default"
+						tool_material = ""
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/7ychu5/test/ik_test.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						small_element_threshold = 0.0
+						thin_element_threshold = 0.0
+						optimization_algorithm = "QEM"
+						disable_region_svm = false
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"leg01_up",
+								"leg02_up",
+								"leg03_up",
+								"leg04_up",
+								"leg05_up",
+								"leg07_up",
+								"leg08_up",
+								"leg01_down",
+								"leg02_down",
+								"leg03_down",
+								"leg04_down",
+								"leg05_down",
+								"leg06_down",
+								"leg07_down",
+								"leg08_down",
+								"head",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "leg07_up"
+						parent_bone = "Bone_011"
+						surface_prop = "flesh"
+						collision_prop = "default"
+						tool_material = ""
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/7ychu5/test/ik_test.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						small_element_threshold = 0.0
+						thin_element_threshold = 0.0
+						optimization_algorithm = "QEM"
+						disable_region_svm = false
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"leg01_up",
+								"leg02_up",
+								"leg03_up",
+								"leg04_up",
+								"leg05_up",
+								"leg08_up",
+								"leg01_down",
+								"leg02_down",
+								"leg03_down",
+								"leg04_down",
+								"leg05_down",
+								"leg06_down",
+								"leg07_down",
+								"leg08_down",
+								"head",
+								"leg06_up",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "leg08_up"
+						parent_bone = "Bone_007"
+						surface_prop = "flesh"
+						collision_prop = "default"
+						tool_material = ""
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/7ychu5/test/ik_test.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						small_element_threshold = 0.0
+						thin_element_threshold = 0.0
+						optimization_algorithm = "QEM"
+						disable_region_svm = false
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"leg01_up",
+								"leg02_up",
+								"leg03_up",
+								"leg04_up",
+								"leg05_up",
+								"leg06_up",
+								"leg07_up",
+								"leg01_down",
+								"leg02_down",
+								"leg03_down",
+								"leg04_down",
+								"leg05_down",
+								"leg06_down",
+								"leg07_down",
+								"leg08_down",
+								"head",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "leg01_down"
+						parent_bone = "Bone_002"
+						surface_prop = "flesh"
+						collision_prop = "default"
+						tool_material = ""
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/7ychu5/test/ik_test.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						small_element_threshold = 0.0
+						thin_element_threshold = 0.0
+						optimization_algorithm = "QEM"
+						disable_region_svm = false
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"leg01_up",
+								"leg02_up",
+								"leg03_up",
+								"leg04_up",
+								"leg05_up",
+								"leg06_up",
+								"leg07_up",
+								"leg08_up",
+								"leg02_down",
+								"leg03_down",
+								"leg04_down",
+								"leg05_down",
+								"leg06_down",
+								"leg07_down",
+								"leg08_down",
+								"head",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "leg02_down"
+						parent_bone = "Bone_014"
+						surface_prop = "flesh"
+						collision_prop = "default"
+						tool_material = ""
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/7ychu5/test/ik_test.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						small_element_threshold = 0.0
+						thin_element_threshold = 0.0
+						optimization_algorithm = "QEM"
+						disable_region_svm = false
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"leg01_up",
+								"leg02_up",
+								"leg03_up",
+								"leg04_up",
+								"leg05_up",
+								"leg06_up",
+								"leg07_up",
+								"leg08_up",
+								"leg03_down",
+								"leg04_down",
+								"leg05_down",
+								"leg06_down",
+								"leg07_down",
+								"leg08_down",
+								"leg01_down",
+								"head",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "leg03_down"
+						parent_bone = "Bone_010"
+						surface_prop = "flesh"
+						collision_prop = "default"
+						tool_material = ""
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/7ychu5/test/ik_test.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						small_element_threshold = 0.0
+						thin_element_threshold = 0.0
+						optimization_algorithm = "QEM"
+						disable_region_svm = false
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"leg01_up",
+								"leg02_up",
+								"leg03_up",
+								"leg04_up",
+								"leg05_up",
+								"leg06_up",
+								"leg07_up",
+								"leg08_up",
+								"leg01_down",
+								"leg02_down",
+								"leg04_down",
+								"leg05_down",
+								"leg06_down",
+								"leg07_down",
+								"leg08_down",
+								"head",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "leg04_down"
+						parent_bone = "Bone_006"
+						surface_prop = "flesh"
+						collision_prop = "default"
+						tool_material = ""
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/7ychu5/test/ik_test.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						small_element_threshold = 0.0
+						thin_element_threshold = 0.0
+						optimization_algorithm = "QEM"
+						disable_region_svm = false
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"leg01_up",
+								"leg02_up",
+								"leg03_up",
+								"leg04_up",
+								"leg05_up",
+								"leg06_up",
+								"leg07_up",
+								"leg08_up",
+								"leg01_down",
+								"leg02_down",
+								"leg03_down",
+								"leg05_down",
+								"leg06_down",
+								"leg07_down",
+								"leg08_down",
+								"head",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "leg05_down"
+						parent_bone = "Bone_004"
+						surface_prop = "flesh"
+						collision_prop = "default"
+						tool_material = ""
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/7ychu5/test/ik_test.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						small_element_threshold = 0.0
+						thin_element_threshold = 0.0
+						optimization_algorithm = "QEM"
+						disable_region_svm = false
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"leg01_up",
+								"leg02_up",
+								"leg03_up",
+								"leg04_up",
+								"leg05_up",
+								"leg06_up",
+								"leg07_up",
+								"leg08_up",
+								"leg01_down",
+								"leg02_down",
+								"leg03_down",
+								"leg04_down",
+								"leg06_down",
+								"leg07_down",
+								"leg08_down",
+								"head",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "leg06_down"
+						parent_bone = "Bone_016"
+						surface_prop = "flesh"
+						collision_prop = "default"
+						tool_material = ""
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/7ychu5/test/ik_test.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						small_element_threshold = 0.0
+						thin_element_threshold = 0.0
+						optimization_algorithm = "QEM"
+						disable_region_svm = false
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"leg01_up",
+								"leg02_up",
+								"leg03_up",
+								"leg04_up",
+								"leg05_up",
+								"leg06_up",
+								"leg07_up",
+								"leg08_up",
+								"leg01_down",
+								"leg02_down",
+								"leg03_down",
+								"leg04_down",
+								"leg05_down",
+								"leg07_down",
+								"leg08_down",
+								"head",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "leg07_down"
+						parent_bone = "Bone_012"
+						surface_prop = "flesh"
+						collision_prop = "default"
+						tool_material = ""
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/7ychu5/test/ik_test.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						small_element_threshold = 0.0
+						thin_element_threshold = 0.0
+						optimization_algorithm = "QEM"
+						disable_region_svm = false
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"leg01_up",
+								"leg02_up",
+								"leg03_up",
+								"leg04_up",
+								"leg05_up",
+								"leg06_up",
+								"leg07_up",
+								"leg08_up",
+								"leg01_down",
+								"leg02_down",
+								"leg03_down",
+								"leg04_down",
+								"leg05_down",
+								"leg06_down",
+								"leg08_down",
+								"head",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "leg08_down"
+						parent_bone = "Bone_008"
+						surface_prop = "flesh"
+						collision_prop = "default"
+						tool_material = ""
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/7ychu5/test/ik_test.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						small_element_threshold = 0.0
+						thin_element_threshold = 0.0
+						optimization_algorithm = "QEM"
+						disable_region_svm = false
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"leg01_up",
+								"leg02_up",
+								"leg03_up",
+								"leg04_up",
+								"leg05_up",
+								"leg06_up",
+								"leg07_up",
+								"leg08_up",
+								"leg01_down",
+								"leg02_down",
+								"leg03_down",
+								"leg04_down",
+								"leg05_down",
+								"leg06_down",
+								"leg07_down",
+								"head",
+							]
+						}
+					},
+				]
+				leave_body_collision_unmodified = false
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/7ychu5/test/ik_test.dmx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = "jointed_physics_model"
+		primary_associated_entity = "prop_ragdoll"
+		anim_graph_name = ""
+		document_sub_type = "ModelDocSubType_None"
+	}
+}

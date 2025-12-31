@@ -1,0 +1,105 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc37:version{9e04b9aa-f073-4e59-8923-ff57489eb2c7} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "Skeleton"
+				children = 
+				[
+					{
+						_class = "Bone"
+						name = "Sphere001"
+						origin = [ -0.307526, 17.218813, 0.0 ]
+						angles = [ -0.0, 0.0, 90.0 ]
+						do_not_discard = true
+					},
+					{
+						_class = "Bone"
+						name = "Bone001"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ -0.0, 89.999969, 0.0 ]
+						do_not_discard = true
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "0b_wave2.vmat"
+								to = "particles/7ychu5/weapons/slot1/csol_pianogun/models/materials/0b_wave2.vmat"
+							},
+							{
+								from = "0b_wave2_1.vmat"
+								to = "particles/7ychu5/weapons/slot1/csol_pianogun/models/materials/0b_wave2_1.vmat"
+							},
+							{
+								from = "0b_wave2_2.vmat"
+								to = "particles/7ychu5/weapons/slot1/csol_pianogun/models/materials/0b_wave2_2.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "particles/7ychu5/weapons/slot1/csol_pianogun/models/ref_wave_a.dmx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "idle"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "particles/7ychu5/weapons/slot1/csol_pianogun/models/anims/ref_wave_a_idle.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		document_sub_type = "ModelDocSubType_None"
+	}
+}
